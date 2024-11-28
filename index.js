@@ -15,7 +15,7 @@ app.use(
     cors({
         credentials: true,
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
-        origin: process.env.NETLIFY_URL || "http://localhost:3000",
+        origin: process.env.NETLIFY_URL || 'https://6748e4e850b97d906c52f53c--splendorous-donut-75047d.netlify.app',
     })
 );
 
